@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [Frontend Mentor solution URL](https://www.frontendmentor.io/solutions/single-price-grid-component-j2mst0XseU)
+-   Live Site URL: [Single price grid component](https://single-price-grid-component-front-end-mentor.vercel.app/)
 
 ## My process
 
