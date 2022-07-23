@@ -4,6 +4,7 @@
 .card {
 	display: grid;
 	grid:
+		'title'
 		'section1' 1fr
 		'section2' 0.75fr
 		'section3' 1fr
@@ -15,8 +16,17 @@
 	box-shadow: var(--shadow-card);
 	overflow: hidden;
 
+	h1 {
+		grid-area: title;
+		padding: var(--mainTitle-padding) var(--mainTitle-padding) 0;
+		font-size: var(--font-size-h1);
+		font-weight: var(--font-weight-700);
+		color: var(--clr-primary-400);
+	}
+
 	@include extra-large-screen {
 		grid:
+			'title title'
 			'section1 section1'
 			'section2 section3'
 			/ 50% 50%;

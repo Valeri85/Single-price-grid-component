@@ -1,19 +1,15 @@
-import { FC, useContext, useId } from 'react';
+import { FC, useId } from 'react';
 
 import { Section } from '../Section/Section';
-
-import { LaballedbyContenxt } from '../../context/LabelledbyContext';
 
 import classes from '../Section/Section.module.scss';
 
 export const Content: FC = () => {
-	const mainTitleId = useContext(LaballedbyContenxt);
 	const subTitleId = useId();
 
 	return (
 		<>
 			<Section className={classes.section1} labelledby={subTitleId}>
-				<h1 id={mainTitleId}>Join our community</h1>
 				<h2 id={subTitleId}>
 					30-day, hassle-free money back guarantee
 				</h2>
