@@ -1,0 +1,25 @@
+@use '../../assets/styles/helpers/functions' as *;
+@use '../../assets/styles/helpers/_mixins.scss' as *;
+
+.card {
+	display: grid;
+	grid:
+		'section1' 1fr
+		'section2' 0.75fr
+		'section3' 1fr
+		/ 100%;
+	place-self: center;
+	width: em(360);
+	background-color: var(--clr-secondary-100);
+	border-radius: var(--border-radius);
+	box-shadow: var(--shadow-card);
+	overflow: hidden;
+
+	@include extra-large-screen {
+		grid:
+			'section1 section1'
+			'section2 section3'
+			/ 50% 50%;
+		width: em(650);
+	}
+}

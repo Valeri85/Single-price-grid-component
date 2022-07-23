@@ -1,0 +1,42 @@
+:root {
+	/* Background Colors */
+	--clr-primary-300: hsl(71, 73%, 54%);
+	--clr-primary-350: hsl(179, 72%, 43%);
+	--clr-primary-400: hsl(179, 62%, 43%);
+	--clr-secondary-100: hsl(0, 0%, 100%);
+	--clr-secondary-300: hsl(204, 43%, 93%);
+	--clr-secondary-400: hsl(218, 22%, 67%);
+
+	/* Font Colors */
+
+	/* Hovers */
+
+	/* Shadows */
+	--shadow-card: 0px 10px 25px 0px hsla(0, 0%, 0%, 0.15);
+	--shadow-button: 0px 10px 20px 0px hsla(0, 0%, 0%, 0.15);
+
+	/* Border Colors */
+
+	/* Responsive Paddings */
+	--section-padding: clamp(1.5em, 0.8182em + 1.8182vw, 3em);
+
+	/* Border Radiuses */
+	--border-radius: 0.5em;
+
+	/* Font Families */
+	--font-family-primary: Karla, sans-serif;
+	// --font-family-secondary: ;
+
+	/* Font Sizes */
+	--font-size-body: clamp(1.4rem, 1.3091rem + 0.2424vw, 1.6rem);
+	--font-size-h1: clamp(2rem, 1.7727rem + 0.6061vw, 2.5rem);
+	--font-size-h2: clamp(1.5rem, 1.2727rem + 0.6061vw, 2rem);
+	--font-size-h3: clamp(1.75rem, 1.7045rem + 0.1212vw, 1.85rem);
+
+	/* Font Weights */
+	--font-weight-400: 400;
+	--font-weight-700: 700;
+
+	/* Animations */
+	--animation-time: 500ms;
+}
