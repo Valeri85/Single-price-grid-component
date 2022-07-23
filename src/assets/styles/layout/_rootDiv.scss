@@ -1,5 +1,9 @@
+@use '../helpers/mixins' as *;
+
 #root {
 	display: grid;
 	height: 100%;
-	margin-block: 1em;
+	@include extra-large-screen {
+		margin-block: 1em;
+	}
 }
