@@ -3,7 +3,8 @@
 #root {
 	display: grid;
 	height: 100%;
-	@include extra-large-screen {
-		margin-block: 1em;
+	margin-block: 1em;
+	@include large-screen {
+		margin-block: 0;
 	}
 }
